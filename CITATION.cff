@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Tor Hides Your IP, Not Your Words: Free LLMs as an Attribute-Inference Threat to Users of Network Anonymity Tools"
+authors:
+  - family-names: Mashiki
+    given-names: Selby
+    affiliation: "National University of Science and Technology (NUST), Zimbabwe"
+type: software
+license: MIT
+version: "1.0"
+date-released: "2026-10-18"

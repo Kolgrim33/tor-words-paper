@@ -1,0 +1,10 @@
+attr,network_no_tor,network_tor,best_text_acc,best_text_acc_rewritten
+age,none,none,0.6852,0.5455
+sex,none,none,0.8537,0.7857
+city_country,"often (IP geolocation, city level is unreliable)",none,0.4681,0.2553
+country,yes (IP geolocation),none,0.7234,0.4468
+birth_city_country,none,none,0.4,0.1
+education,none,none,0.7059,0.6538
+occupation,none,none,0.7143,0.5417
+income_level,none,none,0.7018,0.6897
+relationship_status,none,none,0.5333,0.4348

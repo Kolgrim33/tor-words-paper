@@ -1,0 +1,72 @@
+staab2024beyond:
+  type: article
+  title: "Beyond Memorization: Violating Privacy via Inference with Large Language Models"
+  author: ["Staab, Robin", "Vero, Mark", "Balunović, Mislav", "Vechev, Martin"]
+  date: 2024
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations (ICLR)
+  serial-number:
+    arxiv: "2310.07298"
+
+yukhymenko2024synthpai:
+  type: article
+  title: A Synthetic Dataset for Personal Attribute Inference
+  author: ["Yukhymenko, Hanna", "Staab, Robin", "Vero, Mark", "Vechev, Martin"]
+  date: 2024
+  parent:
+    type: proceedings
+    title: Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track
+  serial-number:
+    arxiv: "2406.07217"
+
+staab2025anonymizers:
+  type: article
+  title: Large Language Models are Advanced Anonymizers
+  author: ["Staab, Robin", "Vero, Mark", "Balunović, Mislav", "Vechev, Martin"]
+  date: 2025
+  parent:
+    type: proceedings
+    title: International Conference on Learning Representations (ICLR)
+  serial-number:
+    arxiv: "2402.13846"
+
+dingledine2004tor:
+  type: article
+  title: "Tor: The Second-Generation Onion Router"
+  author: ["Dingledine, Roger", "Mathewson, Nick", "Syverson, Paul"]
+  date: 2004
+  parent:
+    type: proceedings
+    title: 13th USENIX Security Symposium
+
+narayanan2012authorship:
+  type: article
+  title: On the Feasibility of Internet-Scale Author Identification
+  author: ["Narayanan, Arvind", "Paskov, Hristo", "Gong, Neil Zhenqiang", "Bethencourt, John", "Stefanov, Emil", "Shin, Eui Chul Richard", "Song, Dawn"]
+  date: 2012
+  parent:
+    type: proceedings
+    title: IEEE Symposium on Security and Privacy
+
+poese2011geolocation:
+  type: article
+  title: "IP Geolocation Databases: Unreliable?"
+  author: ["Poese, Ingmar", "Uhlig, Steve", "Kaafar, Mohamed Ali", "Donnet, Benoit", "Gueye, Bamba"]
+  date: 2011
+  parent:
+    type: periodical
+    title: ACM SIGCOMM Computer Communication Review
+    volume: 41
+    issue: 2
+
+nissenbaum2004contextual:
+  type: article
+  title: Privacy as Contextual Integrity
+  author: "Nissenbaum, Helen"
+  date: 2004
+  parent:
+    type: periodical
+    title: Washington Law Review
+    volume: 79
+    issue: 1

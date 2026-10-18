@@ -1,0 +1,11 @@
+#import "../data.typ": *
+
+*Data.* We use SynthPAI @yukhymenko2024synthpai (CC BY-NC-SA 4.0). Each of its 300 synthetic authors has a ground-truth profile with eight attributes, and each comment carries human-reviewer labels marking which attributes a human could infer from it. We sample #S.n_profiles authors (fixed seed) among those with at least one human-inferable attribute, concatenate each author's comments in dataset order and truncate them to 3,000 characters. For each author we score only the attributes that a human reviewer marked as inferable, so the task is never impossible by construction.
+
+*Models.* The adversary uses only models available on the free tier of the Google Gemini API at the time of the run (#META.date): #META.models.map(m => raw(short(m))).join(", ", last: " and "). All calls use temperature 0.
+
+*Inference prompt.* Adapted from Staab et al. @staab2024beyond: the model is told it is an expert investigator, is given the comments, is asked to reason about every clue and is required to return a JSON object with a guess (or null) for each attribute, with fixed answer options for sex, education level, income level and relationship status.
+
+*Defense.* Before inference, #raw(short(META.rewrite_and_judge_model)) rewrites each author's comments with the instruction to keep meaning and tone but remove any clue about the eight attributes. We then run the same inference on the rewritten text. To check that the rewrite still says the same thing, the same model rates meaning preservation from 1 to 5 for the first #S.n_meaning authors.
+
+*Scoring.* Age is correct within ±5 years. Sex, income level, education level and relationship status are compared after normalization. City, birthplace and occupation are free text, so #raw(short(META.rewrite_and_judge_model)) acts as a strict yes/no judge ("same city?", "same or very similar occupation?"). We additionally report *country* accuracy (exact country match) because country is what IP geolocation reveals. Empty or unparseable answers count as wrong. Requests that failed because of free-tier quota limits returned no answer at all, so they are excluded and their number is reported. We report accuracy with 95% bootstrap confidence intervals (1,000 resamples).

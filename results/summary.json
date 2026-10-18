@@ -1,0 +1,141 @@
+{
+  "models": [
+    "gemini/gemini-3.1-flash-lite",
+    "gemini/gemini-3.5-flash-lite"
+  ],
+  "n_profiles": 100,
+  "n_predictions": 400,
+  "n_errors": 41,
+  "best_original": {
+    "age": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.6852,
+      "lo": 0.5556,
+      "hi": 0.7963,
+      "n": 54
+    },
+    "sex": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.8537,
+      "lo": 0.7317,
+      "hi": 0.9512,
+      "n": 41
+    },
+    "city_country": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.4681,
+      "lo": 0.3191,
+      "hi": 0.5957,
+      "n": 47
+    },
+    "country": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.7234,
+      "lo": 0.5745,
+      "hi": 0.8511,
+      "n": 47
+    },
+    "birth_city_country": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.4,
+      "lo": 0.1,
+      "hi": 0.7,
+      "n": 10
+    },
+    "education": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.7059,
+      "lo": 0.5882,
+      "hi": 0.8235,
+      "n": 51
+    },
+    "occupation": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.7143,
+      "lo": 0.5974,
+      "hi": 0.8052,
+      "n": 77
+    },
+    "income_level": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.7018,
+      "lo": 0.5789,
+      "hi": 0.807,
+      "n": 57
+    },
+    "relationship_status": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.5333,
+      "lo": 0.3778,
+      "hi": 0.6667,
+      "n": 45
+    }
+  },
+  "best_rewritten": {
+    "age": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.5455,
+      "lo": 0.4182,
+      "hi": 0.6727,
+      "n": 55
+    },
+    "sex": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.7857,
+      "lo": 0.6667,
+      "hi": 0.9048,
+      "n": 42
+    },
+    "city_country": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.2553,
+      "lo": 0.1277,
+      "hi": 0.383,
+      "n": 47
+    },
+    "country": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.4468,
+      "lo": 0.3191,
+      "hi": 0.5745,
+      "n": 47
+    },
+    "birth_city_country": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.1,
+      "lo": 0.0,
+      "hi": 0.3,
+      "n": 10
+    },
+    "education": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.6538,
+      "lo": 0.5192,
+      "hi": 0.7692,
+      "n": 52
+    },
+    "occupation": {
+      "model": "gemini/gemini-3.5-flash-lite",
+      "acc": 0.5417,
+      "lo": 0.4167,
+      "hi": 0.6875,
+      "n": 48
+    },
+    "income_level": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.6897,
+      "lo": 0.569,
+      "hi": 0.7931,
+      "n": 58
+    },
+    "relationship_status": {
+      "model": "gemini/gemini-3.1-flash-lite",
+      "acc": 0.4348,
+      "lo": 0.3043,
+      "hi": 0.587,
+      "n": 46
+    }
+  },
+  "mean_meaning": 5.0,
+  "n_meaning": 30
+}
