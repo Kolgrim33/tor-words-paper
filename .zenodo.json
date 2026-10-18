@@ -1,0 +1,24 @@
+{
+  "title": "Tor Hides Your IP, Not Your Words: Free LLMs as an Attribute-Inference Threat to Users of Network Anonymity Tools",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Tor and VPNs hide a user's IP address, and users often treat that as anonymity. We show that the text such users post remains a strong source of personal information, and that extracting it is now free. On 100 synthetic authors from the SynthPAI dataset, two free-tier Gemini models inferred eight personal attributes from the authors' comments. The best model guessed sex correctly 85.4% of the time, occupation 71.4% and country 72.3%, with a mean of 64.3% over all attributes; most of these attributes are never revealed by an IP address at all. A simple defense, rewriting comments with an LLM before posting, lowered mean accuracy to 49.5% but did not remove any attribute. We release all code and raw model outputs.",
+  "creators": [
+    {
+      "name": "Mashiki, Selby",
+      "affiliation": "Information Management and Technology, National University of Science and Technology (NUST), Zimbabwe"
+    }
+  ],
+  "keywords": [
+    "privacy",
+    "Tor",
+    "anonymity",
+    "large language models",
+    "attribute inference",
+    "SynthPAI"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.1"
+}
