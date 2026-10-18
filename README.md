@@ -1,5 +1,7 @@
 # Tor Hides Your IP, Not Your Words
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23453955.svg)](https://doi.org/10.5281/zenodo.23453955)
+
 Code, data pipeline and raw results for the preprint *"Tor Hides Your IP, Not Your Words: Free LLMs as an Attribute-Inference Threat to Users of Network Anonymity Tools"* by Selby Mashiki (NUST, Zimbabwe).
 
 Network anonymity tools such as Tor and VPNs hide *where* you connect from. They do not hide *what you write*. This study measures how accurately free-tier large language models infer eight personal attributes (age, sex, location, birthplace, education, occupation, income level, relationship status) from synthetic online comments, compares that with what an IP address reveals, and tests a "rewrite before posting" defense.
